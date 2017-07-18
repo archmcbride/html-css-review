@@ -1,0 +1,40 @@
+.label {
+	font-size: 25px;
+	color: lightblue;
+}
+
+h1.label {
+	font-size: 32px;
+	color: peachpuff;
+	margin: 10px;
+	padding: 5px;
+
+
+}
+
+span.label {
+	font-size: 16px;
+}
+
+html.label {
+	font-size: 18px;
+	color: maroon;
+}
+
+/**a space indicates a descendant; the div under the form**/
+form div{
+	border: 2px dashed blue;
+}
+
+form {
+	height: 60%;
+	width: 60%;
+	background-color: burlywood;
+	border: 3px inset orangered;
+	border-radius: 10px;
+
+}
+
+
+
+/**Specificity**/
